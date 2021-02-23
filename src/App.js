@@ -14,11 +14,11 @@ function App() {
         className = "App-logo"
         alt = "logo" / >
         <
+        /header> <
         main >
         <
         h1 > My First React < /h1> <
         /main> <
-        /header> <
         footer > Copyright by Me { date } < /footer> <
         /div>
     );
