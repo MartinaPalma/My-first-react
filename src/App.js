@@ -1,19 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
 
-const consola = require('consola');
+import consola from 'consola';
+
 
 function App() {
-  const onClick = () => {
-    consola.info("Ok, hai cliccato qui");
-  }
   const today = new Date();
   const date = today.getFullYear();
+
+  const renderButton = function () {
+  consola.success('Ok, hai cliccato qui')
+};
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <button onClick={onClick}>Clicca qui</button>
+        <button onClick={renderButton}>Clicca qui</button>
         </header>
         <main>
         <h1>My First React</h1>
