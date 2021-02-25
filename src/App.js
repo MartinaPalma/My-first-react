@@ -1,29 +1,27 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import data from "./components/data.js"
 
-import consola from 'consola';
+import Header from './components/Header';
+
+import Footer from './components/Footer';
+
+import Body from './components/Body';
+
 
 
 function App() {
-  const today = new Date();
-  const date = today.getFullYear();
-
-  const renderButton = function () {
-  consola.success('Ok, hai cliccato qui')
-};
-
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <button onClick={renderButton}>Clicca qui</button>
-        </header>
-        <main>
-        <h1>My First React</h1>
-        </main>
-        <footer>Copyright by Me {date}</footer>
-    </div>
-  );
+    return ( 
+        <div className="App">
+        <Header logo ={data.logo} webSiteName={data.name} />
+            <Body 
+            cover = {data.cover}
+            title = {data.title}
+            description = {data.description}
+            />
+        <Footer company= {data.company} />
+        </div>
+    );
 }
 
 export default App;
