@@ -1,13 +1,14 @@
-header {
+.Header {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-header img {
+
+/* .Header img {
     width: 200px;
 }
 
-span {
+.Header span {
     font-size: 25px;
-}
+} */
