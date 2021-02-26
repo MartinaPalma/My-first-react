@@ -1,0 +1,24 @@
+/* .Products {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Products .products-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    min-width: 200px;
+    max-width: 200px;
+}
+
+.Products .h5 {
+    text-align: center;
+}
+
+.Products .img {
+    max-height: 120px;
+    padding: 0.25rem;
+} */
