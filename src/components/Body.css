@@ -22,16 +22,15 @@
 }
 
 .Body img {
-    max-width: 100%;
+    max-width: 90%;
 }
 
-
-/* .Body .products-container {
+.Body .products-container {
     display: flex;
-    flex-wrap: wrap; 
-    overflow-x: scroll;  
-    min-width: 200px;
-    max-width: 200px;
+    flex-wrap: wrap;
+    /* justify-content: space-between;
+    justify-content: space-evenly; */
+    min-width: 300px;
+    max-width: 300px;
     margin: 20px;
-    padding: 20px; 
-} */
+}
